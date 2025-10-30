@@ -64,6 +64,7 @@ function mostrarImagenes(imagenes) {
       <div class="info">
         <p class="titulo">${imagen.titulo}</p>
         <p class="precio">$${imagen.precio}</p>
+        <p class="oferta">4 x $700</p>
       </div>
     `
     card.addEventListener('click', () => {

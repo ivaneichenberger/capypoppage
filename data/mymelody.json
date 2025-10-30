@@ -1,5 +1,5 @@
 {
   "imagenes": [
-    { "id": 1, "titulo": "My Melody 1", "precio": 250, "src": "../img/mymelody/mymelody1.jpg", "categoria": "mymelody" }
+    { "id": 1, "titulo": "My Melody 1", "precio": 200, "src": "../img/mymelody/mymelody1.jpg", "categoria": "mymelody" }
   ]
 }
