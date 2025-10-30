@@ -12,7 +12,7 @@ if (!categoria) {
       const contenedor = document.getElementById('detalle')
 
       if (imagen) {
-        const mensaje = encodeURIComponent(`Hola! Me interesa el sticker "${imagen.titulo}" que vi en tu catálogo `)
+        const mensaje = encodeURIComponent(`Hola! Me interesaron los stickers de la categoria "${imagen.titulo}" me puede pasar más información, gracias 😁 `)
         const linkWhatsapp = `https://wa.me/543794136245?text=${mensaje}`
 
         contenedor.innerHTML = `
