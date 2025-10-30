@@ -1,9 +1,6 @@
 {
   "imagenes": [
     { "id": 1, "titulo": "Gatitos 1", "precio": 250, "src": "../img/gatitos/gatitos1.jpg", "categoria": "gatitos" },
-    { "id": 2, "titulo": "Gatitos 2", "precio": 250, "src": "../img/gatitos/gatitos2.jpg", "categoria": "gatitos" },
-    { "id": 3, "titulo": "Gatitos 3", "precio": 250, "src": "../img/gatitos/gatitos3.jpg", "categoria": "gatitos" },
-    { "id": 4, "titulo": "Gatitos 4", "precio": 250, "src": "../img/gatitos/gatitos4.jpg", "categoria": "gatitos" },
-    { "id": 5, "titulo": "Gatitos 5", "precio": 250, "src": "../img/gatitos/gatitos5.jpg", "categoria": "gatitos" }
+    { "id": 2, "titulo": "Gatitos 2", "precio": 250, "src": "../img/gatitos/gatitos2.jpg", "categoria": "gatitos" }
   ]
 }

@@ -1,9 +1,5 @@
 {
   "imagenes": [
-    { "id": 1, "titulo": "Anime 1", "precio": 250, "src": "../img/anime/anime1.jpg", "categoria": "anime" },
-    { "id": 2, "titulo": "Anime 2", "precio": 250, "src": "../img/anime/anime2.jpg", "categoria": "anime" },
-    { "id": 3, "titulo": "Anime 3", "precio": 250, "src": "../img/anime/anime3.jpg", "categoria": "anime" },
-    { "id": 4, "titulo": "Anime 4", "precio": 250, "src": "../img/anime/anime4.jpg", "categoria": "anime" },
-    { "id": 5, "titulo": "Anime 5", "precio": 250, "src": "../img/anime/anime5.jpg", "categoria": "anime" }
+    { "id": 1, "titulo": "Anime 1", "precio": 250, "src": "../img/anime/anime1.jpg", "categoria": "anime" }
   ]
 }

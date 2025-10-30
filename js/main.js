@@ -3,7 +3,8 @@ const categorias = [
   { nombre: 'videojuegos', archivo: 'data/videojuegos.json' },
   { nombre: 'anime', archivo: 'data/anime.json' },
   { nombre: 'my melody', archivo: 'data/mymelody.json' },
-  { nombre: 'cosas varias', archivo: 'data/varios.json' }
+  { nombre: 'cosas varias', archivo: 'data/varios.json' },
+    { nombre: 'Tiernos', archivo: 'data/tiernos.json' }
 ]
 
 const filtros = document.getElementById('filtros')

@@ -1,9 +1,6 @@
 {
   "imagenes": [
     { "id": 1, "titulo": "South Park 1", "precio": 250, "src": "../img/southpark/southpark1.jpg", "categoria": "southpark" },
-    { "id": 2, "titulo": "South Park 2", "precio": 250, "src": "../img/southpark/southpark2.jpg", "categoria": "southpark" },
-    { "id": 3, "titulo": "South Park 3", "precio": 250, "src": "../img/southpark/southpark3.jpg", "categoria": "southpark" },
-    { "id": 4, "titulo": "South Park 4", "precio": 250, "src": "../img/southpark/southpark4.jpg", "categoria": "southpark" },
-    { "id": 5, "titulo": "South Park 5", "precio": 250, "src": "../img/southpark/southpark5.jpg", "categoria": "southpark" }
+    { "id": 2, "titulo": "South Park 2", "precio": 250, "src": "../img/southpark/southpark2.jpg", "categoria": "southpark" }
   ]
 }

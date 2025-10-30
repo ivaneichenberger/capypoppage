@@ -1,9 +1,5 @@
 {
   "imagenes": [
-    { "id": 1, "titulo": "Varios 1", "precio": 250, "src": "../img/varios/varios1.jpg", "categoria": "varios" },
-    { "id": 2, "titulo": "Varios 2", "precio": 250, "src": "../img/varios/varios2.jpg", "categoria": "varios" },
-    { "id": 3, "titulo": "Varios 3", "precio": 250, "src": "../img/varios/varios3.jpg", "categoria": "varios" },
-    { "id": 4, "titulo": "Varios 4", "precio": 250, "src": "../img/varios/varios4.jpg", "categoria": "varios" },
-    { "id": 5, "titulo": "Varios 5", "precio": 250, "src": "../img/varios/varios5.jpg", "categoria": "varios" }
+    { "id": 1, "titulo": "Varios 1", "precio": 250, "src": "../img/varios/varios1.jpg", "categoria": "varios" }
   ]
 }

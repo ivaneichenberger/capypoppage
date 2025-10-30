@@ -1,9 +1,5 @@
 {
   "imagenes": [
-    { "id": 1, "titulo": "My Melody 1", "precio": 250, "src": "../img/mymelody/mymelody1.jpg", "categoria": "mymelody" },
-    { "id": 2, "titulo": "My Melody 2", "precio": 250, "src": "../img/mymelody/mymelody2.jpg", "categoria": "mymelody" },
-    { "id": 3, "titulo": "My Melody 3", "precio": 250, "src": "../img/mymelody/mymelody3.jpg", "categoria": "mymelody" },
-    { "id": 4, "titulo": "My Melody 4", "precio": 250, "src": "../img/mymelody/mymelody4.jpg", "categoria": "mymelody" },
-    { "id": 5, "titulo": "My Melody 5", "precio": 250, "src": "../img/mymelody/mymelody5.jpg", "categoria": "mymelody" }
+    { "id": 1, "titulo": "My Melody 1", "precio": 250, "src": "../img/mymelody/mymelody1.jpg", "categoria": "mymelody" }
   ]
 }
