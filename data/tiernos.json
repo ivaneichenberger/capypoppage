@@ -1,0 +1,9 @@
+{
+  "imagenes": [
+    { "id": 1, "titulo": "Tierno 1", "precio": 250, "src": "../img/tiernos/tierno1.jpg", "categoria": "tiernos" },
+    { "id": 2, "titulo": "Tierno 2", "precio": 250, "src": "../img/tiernos/tierno2.jpg", "categoria": "tiernos" },
+    { "id": 3, "titulo": "Tierno 3", "precio": 250, "src": "../img/tiernos/tierno3.jpg", "categoria": "tiernos" },
+    { "id": 4, "titulo": "Tierno 4", "precio": 250, "src": "../img/tiernos/tierno4.jpg", "categoria": "tiernos" },
+    { "id": 5, "titulo": "Tierno 5", "precio": 250, "src": "../img/tiernos/tierno5.jpg", "categoria": "tiernos" }
+  ]
+}
