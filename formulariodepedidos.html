@@ -1,12 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de pedidos</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de pedidos - Capypop</title>
+  <link rel="stylesheet" href="css/formulario.css">
+  <link rel="shortcut icon" href="assets/icono.png" type="image/png">
 </head>
 <body>
-    <a href="index.html">Volver</a>
-    <h1>proximamente</h1>
+  <header>
+    <button class="volver" onclick="window.location.href='index.html'">← Volver al inicio</button>
+    <h1>Formulario de pedidos 💌</h1>
+    <p class="subtitulo">Completá tus datos y seleccioná tus productos</p>
+  </header>
+
+  <main>
+    <form id="pedidoForm">
+      <label>📸 ¿Qué productos querés pedir?</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox" id="photocards"> Photocards ($200 c/u o 9 x $1600)</label>
+        <label><input type="checkbox" id="polaroids"> Polaroids normales ($450 c/u)</label>
+        <label><input type="checkbox" id="polaroidsMini"> Polaroids mini ($250 c/u)</label>
+      </div>
+
+      <div id="cantidades">
+        <div class="campo" id="campoPhotocards" style="display:none;">
+          <label>Cantidad de photocards:</label>
+          <input type="number" id="cantPhotocards" min="1" value="1">
+        </div>
+
+        <div class="campo" id="campoPolaroids" style="display:none;">
+          <label>Cantidad de polaroids normales:</label>
+          <input type="number" id="cantPolaroids" min="1" value="1">
+        </div>
+
+        <div class="campo" id="campoPolaroidsMini" style="display:none;">
+          <label>Cantidad de polaroids mini:</label>
+          <input type="number" id="cantPolaroidsMini" min="1" value="1">
+        </div>
+      </div>
+
+      <div class="campo">
+        <label>💖 Tu nombre:</label>
+        <input type="text" id="nombre" placeholder="Ej: Florencia" required>
+      </div>
+
+      <div class="resumen">
+        <p id="total">Total: $0</p>
+      </div>
+
+      <button type="button" id="enviar">Enviar pedido por WhatsApp</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Capypop — Hecho con amor 💕</p>
+  </footer>
+
+  <script src="js/formulario.js"></script>
 </body>
 </html>
