@@ -1,5 +1,5 @@
 {
   "imagenes": [
-    { "id": 1, "titulo": "Varios 1", "precio": 200, "src": "../img/varios/varios1.jpg", "categoria": "varios" }
+    { "id": 1, "titulo": "Varios 1", "precio": 250, "src": "../img/varios/varios1.jpg", "categoria": "varios" }
   ]
 }

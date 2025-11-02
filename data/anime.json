@@ -1,5 +1,5 @@
 {
   "imagenes": [
-    { "id": 1, "titulo": "Anime 1", "precio": 200, "src": "../img/anime/anime1.jpg", "categoria": "anime" }
+    { "id": 1, "titulo": "Anime 1", "precio": 250, "src": "../img/anime/anime1.jpg", "categoria": "anime" }
   ]
 }

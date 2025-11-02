@@ -1,8 +1,8 @@
 {
   "imagenes": [
-    { "id": 1, "titulo": "Videojuego 1", "precio": 200, "src": "../img/videojuegos/videojuegos1.jpg", "categoria": "videojuegos" },
-    { "id": 2, "titulo": "Videojuego 2", "precio": 200, "src": "../img/videojuegos/videojuegos2.jpg", "categoria": "videojuegos" },
-    { "id": 3, "titulo": "Videojuego 3", "precio": 200, "src": "../img/videojuegos/videojuegos3.jpg", "categoria": "videojuegos" },
-    { "id": 4, "titulo": "Videojuego 4", "precio": 200, "src": "../img/videojuegos/videojuegos4.jpg", "categoria": "videojuegos" }
+    { "id": 1, "titulo": "Videojuego 1", "precio": 250, "src": "../img/videojuegos/videojuegos1.jpg", "categoria": "videojuegos" },
+    { "id": 2, "titulo": "Videojuego 2", "precio": 250, "src": "../img/videojuegos/videojuegos2.jpg", "categoria": "videojuegos" },
+    { "id": 3, "titulo": "Videojuego 3", "precio": 250, "src": "../img/videojuegos/videojuegos3.jpg", "categoria": "videojuegos" },
+    { "id": 4, "titulo": "Videojuego 4", "precio": 250, "src": "../img/videojuegos/videojuegos4.jpg", "categoria": "videojuegos" }
   ]
 }

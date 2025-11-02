@@ -1,6 +1,6 @@
 {
   "imagenes": [
-    { "id": 1, "titulo": "Gatitos 1", "precio": 200, "src": "../img/gatitos/gatitos1.jpg", "categoria": "gatitos" },
-    { "id": 2, "titulo": "Gatitos 2", "precio": 200, "src": "../img/gatitos/gatitos2.jpg", "categoria": "gatitos" }
+    { "id": 1, "titulo": "Gatitos 1", "precio": 250, "src": "../img/gatitos/gatitos1.jpg", "categoria": "gatitos" },
+    { "id": 2, "titulo": "Gatitos 2", "precio": 250, "src": "../img/gatitos/gatitos2.jpg", "categoria": "gatitos" }
   ]
 }

@@ -19,7 +19,7 @@ if (!categoria) {
           <img id="stickerImg" src="${imagen.src}" alt="${imagen.titulo}">
           <h2>${imagen.titulo}</h2>
           <p>Precio: $${imagen.precio}</p>
-          <p class="oferta">4 x $700 </p>
+          <p class="oferta">4 x $800 </p>
           <a href="${linkWhatsapp}" target="_blank">💬 Escribime por WhatsApp</a>
           <br>
           <a href="index.html">Volver</a>

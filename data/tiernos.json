@@ -1,5 +1,5 @@
 {
   "imagenes": [
-    { "id": 1, "titulo": "Tierno 1", "precio": 200, "src": "../img/tiernos/tierno1.jpg", "categoria": "tiernos" }
+    { "id": 1, "titulo": "Tierno 1", "precio": 250, "src": "../img/tiernos/tierno1.jpg", "categoria": "tiernos" }
   ]
 }
