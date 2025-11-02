@@ -15,15 +15,17 @@ if (!categoria) {
         const mensaje = encodeURIComponent(`Hola! Me interesaron los stickers de la categoria "${imagen.titulo}" me puede pasar más información, gracias 😁 `)
         const linkWhatsapp = `https://wa.me/543794136245?text=${mensaje}`
 
-        contenedor.innerHTML = `
-          <img id="stickerImg" src="${imagen.src}" alt="${imagen.titulo}">
-          <h2>${imagen.titulo}</h2>
-          <p>Precio: $${imagen.precio}</p>
-          <p class="oferta">4 x $800 </p>
-          <a href="${linkWhatsapp}" target="_blank">💬 Escribime por WhatsApp</a>
-          <br>
-          <a href="index.html">Volver</a>
-        `
+contenedor.innerHTML = `
+  <img id="stickerImg" src="${imagen.src}" alt="${imagen.titulo}">
+  <div class="info">
+    <h2>${imagen.titulo}</h2>
+    <p>Precio: $${imagen.precio}</p>
+    <p class="oferta">4 x $800</p>
+    <a href="${linkWhatsapp}" target="_blank">💬 Escribime por WhatsApp</a>
+    <br>
+    <a href="index.html">Volver</a>
+  </div>
+`
 
         const img = document.getElementById('stickerImg')
 
