@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/:categoria/:id",
+      "destination": "/detalle.html?cat=:categoria&id=:id"
+    }
+  ]
+}
