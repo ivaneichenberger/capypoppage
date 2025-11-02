@@ -147,3 +147,19 @@ footer {
     height: auto;
   }
 }
+.volver {
+  background: #ffb6c1;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.volver:hover {
+  background: #ff9aae;
+  transform: scale(1.05);
+}

@@ -3,23 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Catálogo de Stickers</title>
-  <link rel="stylesheet" href="css/style.css">
-   <link rel="shortcut icon" href="assets/icono.png" type="image/png">
+  <title>Capypop</title>
+  <link rel="stylesheet" href="css/landing.css">
+  <link rel="icon" href="assets/icono.png" type="image/png">
 </head>
 <body>
   <header>
-    <h1>Catálogo de Stickers en Stock</h1>
-    <p class="subtitulo">Elegí tu categoría y mirá todos los diseños 💕</p>
+    <h1>🌸 Capypop 🌸</h1>
+    <p class="subtitulo">Stickers, Photocards y Polaroids con amor desde Corrientes 💖</p>
   </header>
 
-  <div id="filtros"></div>
-  <div id="galeria"></div>
+  <section class="presentacion">
+    <img src="assets/icono.png" alt="Capypop Logo" class="logo">
+    <p class="descripcion">
+      Somos un emprendimiento de <b>Corrientes Capital</b> dedicado a la venta de 
+      <b>stickers, photocards y polaroids</b>.  
+      En Capypop queremos ofrecerte un trato <b>amigable, empático y cercano</b>, 
+      creando productos llenos de cariño para vos 💕
+    </p>
+  </section>
+
+  <section class="botones">
+    <h2>Explorá nuestras secciones</h2>
+    <div class="contenedor-botones">
+      <button onclick="window.location.href='stockstickers.html'">🩷 Stickers</button>
+      <button onclick="window.location.href='stockphotocards.html'">💜 Photocards</button>
+      <button onclick="window.location.href='stockpolaroids.html'">💛 Polaroids</button>
+      <button onclick="window.location.href='formulariodepedidos.html'">💌 Hacer un pedido</button>
+    </div>
+  </section>
 
   <footer>
-    <p>Stickers by Capypop</p>
+    <p>Hecho con amor en Corrientes Capital 💗</p>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="scripts/landing.js"></script>
 </body>
 </html>

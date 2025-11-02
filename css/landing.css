@@ -1,0 +1,104 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff6f9;
+  color: #444;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header {
+  margin-top: 40px;
+}
+
+h1 {
+  color: #ff7eb9;
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+.subtitulo {
+  color: #666;
+  font-size: 1rem;
+}
+
+.presentacion {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.descripcion {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.botones {
+  margin-top: 20px;
+  width: 100%;
+}
+
+h2 {
+  color: #ff7eb9;
+  margin-bottom: 15px;
+}
+
+.contenedor-botones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+}
+
+button {
+  background: #ffb6c1;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+button:hover {
+  background: #ff9aae;
+  transform: scale(1.05);
+}
+
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* 📱 Responsive */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .descripcion {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .logo {
+    width: 120px;
+    height: 120px;
+  }
+}
