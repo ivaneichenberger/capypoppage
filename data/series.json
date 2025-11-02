@@ -1,0 +1,6 @@
+{
+  "imagenes": [
+    { "id": 1, "titulo": "Series 1", "precio": 250, "src": "../img/series/series1.jpg", "categoria": "series" },
+    { "id": 2, "titulo": "Series 2", "precio": 250, "src": "../img/series/series2.jpg", "categoria": "series" }
+  ]
+}
