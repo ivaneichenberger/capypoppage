@@ -1,0 +1,75 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff6f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    max-width: 500px;
+}
+
+.capibara {
+    width: 80%;
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    animation: bounce 2s infinite;
+}
+
+h1 {
+    color: #ff7eb9;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.volver {
+    text-decoration: none;
+    background: #ffb6c1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background 0.3s;
+}
+
+.volver:hover {
+    background: #ff9aae;
+}
+
+/* Animación divertida para el capibara */
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px 10px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    .capibara {
+        width: 100%;
+        max-width: 250px;
+    }
+}
