@@ -24,6 +24,7 @@ function mostrarCarrito() {
       <div class="info-item">
         <h4>${item.producto}</h4>
         <p>$${item.precio}</p>
+        <p style="font-size:0.9rem;color:#555;">Variación: ${extraerNombreVariacion(item.variacion)}</p>
         <button class="eliminar" data-index="${i}">❌ Eliminar</button>
       </div>
     `
@@ -33,13 +34,12 @@ function mostrarCarrito() {
 
   // 🔹 Aplicar promoción "4 x $800"
   let descuentoAplicado = false
-  let cantidad = carrito.length
+  const cantidad = carrito.length
 
   if (cantidad >= 4) {
     const gruposDe4 = Math.floor(cantidad / 4)
     const resto = cantidad % 4
-    const precioPromo = gruposDe4 * 800 + resto * 250
-    totalPrecio = precioPromo
+    totalPrecio = gruposDe4 * 800 + resto * 250
     descuentoAplicado = true
   }
 
@@ -48,6 +48,13 @@ function mostrarCarrito() {
     : `Total: $${totalPrecio}`
 
   localStorage.setItem('carrito', JSON.stringify(carrito))
+}
+
+// Función para extraer el nombre de la variación de la ruta
+function extraerNombreVariacion(ruta) {
+  const nombreArchivo = ruta.split('/').pop() // ej: "gatitos1_1.jpg"
+  const nombre = nombreArchivo.split('.')[0] // quita ".jpg"
+  return nombre
 }
 
 // eliminar un ítem
@@ -62,7 +69,7 @@ lista.addEventListener('click', e => {
 // vaciar carrito
 btnVaciar.addEventListener('click', () => {
   carrito = []
-  localStorage.removeItem('carrito') // Limpieza real
+  localStorage.removeItem('carrito')
   mostrarCarrito()
 })
 
@@ -74,8 +81,10 @@ btnWhatsapp.addEventListener('click', () => {
   }
 
   let mensaje = '¡Hola! Quiero hacer el siguiente pedido:\n\n'
+
   carrito.forEach((item, i) => {
-    mensaje += `${i + 1}. ${item.producto} - $${item.precio}\n`
+    const variacionNombre = extraerNombreVariacion(item.variacion)
+    mensaje += `${i + 1}. ${item.producto} - ${variacionNombre} - $${item.precio}\n`
   })
 
   // Recalcular total con la promoción
