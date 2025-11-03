@@ -1,6 +1,29 @@
 {
   "imagenes": [
-    { "id": 1, "titulo": "Gatitos 1", "precio": 250, "src": "../img/gatitos/gatitos1.jpg", "categoria": "gatitos" },
-    { "id": 2, "titulo": "Gatitos 2", "precio": 250, "src": "../img/gatitos/gatitos2.jpg", "categoria": "gatitos" }
+    { 
+      "id": 1,
+      "titulo": "Gatitos 1",
+      "precio": 250,
+      "src": "../img/gatitos/gatitos1.jpg",
+      "categoria": "gatitos",
+      "variaciones": [
+        "../img/gatitos/gatitosvariaciones/gatitos1_1.jpg",
+        "../img/gatitos/gatitosvariaciones/gatitos1_2.jpg",
+        "../img/gatitos/gatitosvariaciones/gatitos1_3.jpg",
+        "../img/gatitos/gatitosvariaciones/gatitos1_4.jpg"
+      ]
+    },
+    { 
+      "id": 2,
+      "titulo": "Gatitos 2",
+      "precio": 250,
+      "src": "../img/gatitos/gatitos2.jpg",
+      "categoria": "gatitos",
+      "variaciones": [
+        "../img/gatitos/gatitosvariaciones/gatitos2_1.jpg",
+        "../img/gatitos/gatitosvariaciones/gatitos2_2.jpg",
+        "../img/gatitos/gatitosvariaciones/gatitos2_3.jpg"
+      ]
+    }
   ]
 }

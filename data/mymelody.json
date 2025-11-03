@@ -1,5 +1,12 @@
 {
   "imagenes": [
-    { "id": 1, "titulo": "My Melody 1", "precio": 250, "src": "../img/mymelody/mymelody1.jpg", "categoria": "mymelody" }
+    { "id": 1, "titulo": "My Melody 1", "precio": 250, "src": "../img/mymelody/mymelody1.jpg", "categoria": "mymelody",
+      "variaciones": [
+        "../img/mymelody/mymelodyvariaciones/mymelody1_1.jpg", 
+        "../img/mymelody/mymelodyvariaciones/mymelody1_2.jpg",
+        "../img/mymelody/mymelodyvariaciones/mymelody1_3.jpg",
+        "../img/mymelody/mymelodyvariaciones/mymelody1_4.jpg"
+      ]
+    }
   ]
 }

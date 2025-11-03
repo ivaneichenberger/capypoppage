@@ -1,0 +1,156 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff6f9;
+  margin: 0;
+  padding: 20px;
+}
+
+.carrito-container {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+h1 {
+  color: #ff7eb9;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+/* --- Lista de productos --- */
+#listaCarrito {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.item-carrito {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffe4f3;
+  border-radius: 15px;
+  padding: 10px 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.item-carrito img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.info-item {
+  flex: 1;
+  text-align: left;
+}
+
+.info-item h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #ff7eb9;
+}
+
+.info-item p {
+  margin: 5px 0;
+  font-weight: bold;
+  color: #555;
+}
+
+/* --- Botones individuales --- */
+.eliminar {
+  background: #ff7eb9;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: transform 0.1s ease, background 0.3s;
+}
+
+.eliminar:hover {
+  background: #ff5fa6;
+  transform: scale(1.05);
+}
+
+/* --- Total --- */
+#total {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #444;
+  margin-top: 10px;
+}
+
+/* --- Botones inferiores --- */
+.botones-carrito {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.botones-carrito button {
+  background: #ff7eb9;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.botones-carrito button:hover {
+  background: #ff5fa6;
+  transform: scale(1.05);
+}
+
+/* --- Botón volver --- */
+.volver-btn {
+  display: inline-block;
+  margin-top: 25px;
+  text-decoration: none;
+  background: #ffb6c1;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: background 0.3s;
+}
+
+.volver-btn:hover {
+  background: #ff9aae;
+}
+
+/* --- Responsive --- */
+@media (max-width: 600px) {
+  .item-carrito {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .item-carrito img {
+    margin: 0 0 10px 0;
+    width: 100px;
+    height: 100px;
+  }
+
+  .info-item {
+    text-align: center;
+  }
+
+  .eliminar {
+    margin-top: 10px;
+  }
+}

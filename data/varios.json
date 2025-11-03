@@ -1,7 +1,27 @@
 {
   "imagenes": [
-    { "id": 1, "titulo": "Varios 1", "precio": 250, "src": "../img/varios/varios1.jpg", "categoria": "varios" },
-    { "id": 2, "titulo": "Varios 2", "precio": 250, "src": "../img/varios/varios2.jpg", "categoria": "varios" },
-    { "id": 3, "titulo": "Varios 3", "precio": 250, "src": "../img/varios/varios3.jpg", "categoria": "varios" }
+    { "id": 1, "titulo": "Varios 1", "precio": 250, "src": "../img/varios/varios1.jpg", "categoria": "varios",
+      "variaciones": [
+        "../img/varios/variosvariaciones/varios1_1.jpg",
+        "../img/varios/variosvariaciones/varios1_2.jpg",
+        "../img/varios/variosvariaciones/varios1_3.jpg",
+        "../img/varios/variosvariaciones/varios1_4.jpg"
+        ]
+    },
+    { "id": 2, "titulo": "Varios 2", "precio": 250, "src": "../img/varios/varios2.jpg", "categoria": "varios",
+      "variaciones": [
+        "../img/varios/variosvariaciones/varios2_1.jpg",
+        "../img/varios/variosvariaciones/varios2_2.jpg",
+        "../img/varios/variosvariaciones/varios2_3.jpg"
+      ]
+    },
+    { "id": 3, "titulo": "Varios 3", "precio": 250, "src": "../img/varios/varios3.jpg", "categoria": "varios",
+      "variaciones": [
+      "../img/varios/variosvariaciones/varios3_1.jpg", 
+      "../img/varios/variosvariaciones/varios3_2.jpg",
+      "../img/varios/variosvariaciones/varios3_3.jpg",
+      "../img/varios/variosvariaciones/varios3_4.jpg"
+    ]
+    }
   ]
 }

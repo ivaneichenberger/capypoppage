@@ -1,8 +1,34 @@
 {
   "imagenes": [
-    { "id": 1, "titulo": "Anime 1", "precio": 250, "src": "../img/anime/anime1.jpg", "categoria": "anime" },
-     { "id": 2, "titulo": "Anime 2", "precio": 250, "src": "../img/anime/anime2.jpg", "categoria": "anime" },
-      { "id": 3, "titulo": "Anime 3", "precio": 250, "src": "../img/anime/anime3.jpg", "categoria": "anime" },
-       { "id": 4, "titulo": "Anime 4", "precio": 250, "src": "../img/anime/anime4.jpg", "categoria": "anime" }
+    { "id": 1, "titulo": "Anime 1", "precio": 250, "src": "../img/anime/anime1.jpg", "categoria": "anime",
+      "variaciones": ["../img/anime/animevariaciones/anime1_1.jpg", "../img/anime/animevariaciones/anime1_2.jpg"]
+    },
+    { "id": 2, "titulo": "Anime 2", "precio": 250, "src": "../img/anime/anime2.jpg", "categoria": "anime",
+      "variaciones": [
+        "../img/anime/animevariaciones/anime2_1.jpg",
+       "../img/anime/animevariaciones/anime2_2.jpg",
+        "../img/anime/animevariaciones/anime2_3.jpg",
+         "../img/anime/animevariaciones/anime2_4.jpg",
+          "../img/anime/animevariaciones/anime2_5.jpg",
+           "../img/anime/animevariaciones/anime2_6.jpg",
+            "../img/anime/animevariaciones/anime2_7.jpg"
+
+      ]
+    },
+    { "id": 3, "titulo": "Anime 3", "precio": 250, "src": "../img/anime/anime3.jpg", "categoria": "anime",
+      "variaciones": [
+        "../img/anime/animevariaciones/anime3_1.jpg", 
+        "../img/anime/animevariaciones/anime3_2.jpg",
+         "../img/anime/animevariaciones/anime3_3.jpg"
+      ]
+    },
+    { "id": 4, "titulo": "Anime 4", "precio": 250, "src": "../img/anime/anime4.jpg", "categoria": "anime",
+      "variaciones": [
+        "../img/anime/animevariaciones/anime4_1.jpg", 
+        "../img/anime/animevariaciones/anime4_2.jpg",
+         "../img/anime/animevariaciones/anime4_3.jpg",
+          "../img/anime/animevariaciones/anime4_4.jpg"
+      ]
+    }
   ]
 }

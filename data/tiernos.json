@@ -1,5 +1,13 @@
 {
   "imagenes": [
-    { "id": 1, "titulo": "Tierno 1", "precio": 250, "src": "../img/tiernos/tierno1.jpg", "categoria": "tiernos" }
+    { "id": 1, "titulo": "Tierno 1", "precio": 250, "src": "../img/tiernos/tierno1.jpg", "categoria": "tiernos",
+      "variaciones": [
+      "../img/tiernos/tiernovariaciones/tierno1_1.jpg", 
+      "../img/tiernos/tiernovariaciones/tierno1_2.jpg",
+      "../img/tiernos/tiernovariaciones/tierno1_3.jpg",
+      "../img/tiernos/tiernovariaciones/tierno1_4.jpg"
+    ]
+
+    }
   ]
 }
