@@ -3,7 +3,9 @@
     { "id": 1, "titulo": "Series 1", "precio": 250, "src": "../img/series/series1.jpg", "categoria": "series",
       "variaciones": [
         "../img/series/seriesvariaciones/series1_1.jpg", 
-        "../img/series/seriesvariaciones/series1_2.jpg"
+        "../img/series/seriesvariaciones/series1_2.jpg",
+        "../img/series/seriesvariaciones/series1_3.jpg",
+        "../img/series/seriesvariaciones/series1_4.jpg"
       ]
     },
     { "id": 2, "titulo": "Series 2", "precio": 250, "src": "../img/series/series2.jpg", "categoria": "series",
